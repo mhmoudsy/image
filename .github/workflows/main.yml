@@ -12,7 +12,5 @@ on:
 
 
         steps:
-          - name:"Test GitHub Action"
-            run: pwd
-          - name : "Test print"
-            run :echo ahmed 
+          - name:"Listing"
+            run: ls
